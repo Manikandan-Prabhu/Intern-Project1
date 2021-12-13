@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <nav id="top">
+                <div class="logo">
+                    <h4>LOGO</h4>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#page3">Portfolio</a></li>
+                    <li><a href="#page4">About</a></li> 
+                    <!--<li>
+                        <input type="text" name="search" id="search" placeholder="Search &#e8b6">
+                    </li>-->
+                    <li>
+                        <div class="dropdown">
+                            <button class="profile"><span>P</span></button>
+                        <div class="dropdown-content">
+                            <a href="#">My Profile </a>
+                            <a href="#">Edit</a>
+                            <a href="#">Log Out</a>
+                        </div>
+                        </div>
+                    </li>
+                </ul>
+        </nav>
+        <section class="page1">
+            <div class="titlepage" id="home">
+                <div class="heading">
+                    <h1>Heading</h1>
+                    <h3>Sub Heading</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam consequuntur nobis, porro, blanditiis at illum deleniti eaque voluptate ex explicabo dolore aliquam non placeat iusto minima ipsa saepe alias nam.
+                    </p>
+                    <button id="button" style="vertical-align: middle;"><span>Get Started</span></button>
+                    <!--<input type="button" value = "Get Started" id="button">-->
+                </div>
+                <img src="imgs/pexels-louise-10132935.jpg" alt="image">
+            </div>
+        </section>
+        <section class="page2">
+            <div class="blog" id="blog">
+                <h2>
+                    Blog
+                </h2>
+            </div>
+            <!--<div class="slideshow">
+                <div class="slideshow-buttons">
+                    <button id="prev" style="vertical-align: middle;">
+                        <span>&#10094</span>
+                    </button>
+                </div>
+                <div class="content">
+                    <img src="/sample/imgs/pexels-needtofly-9000159.jpg" alt="img 1" width="220px">
+                </div>
+                <div class="slideshow-buttons">
+                    <button id="next" style="vertical-align: middle;">
+                        <span>&#10095</span>
+                    </button>
+                </div>
+            </div>-->
+
+            <div class="container">
+                <div class="row">
+                    <div class="column"> <!--First Card-->
+                        <div class="content">
+                            <div class="imgcontainer">
+                                <img src="/sample/imgs/pexels-louise-10132935.jpg" alt="1 image" class="cardimage" style="width: 90%;">
+                            </div>
+                            <h3>Blog 1</h3>
+                            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt amet similique veniam consectetur 
+                            laudantium delectus, aut fuga rem voluptatum minus ab ratione provident enim esse vero! 
+                            Voluptatum dolorem enim sequi."</p>
+                        </div>
+                    </div>
+                    <div class="column"> <!--Second Card-->
+                        <div class="content">
+                            <div class="imgcontainer">
+                                <img src="/sample/imgs/pexels-needtofly-9000159.jpg" alt="2 image" class="cardimage" style="width: 80%;">
+                            </div>
+                            <h3>Blog 2</h3>
+                            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt amet similique veniam consectetur 
+                            laudantium delectus, aut fuga rem voluptatum minus ab ratione provident enim esse vero! 
+                            Voluptatum dolorem enim sequi."</p>
+                        </div>
+                    </div>
+                    <div class="column"> <!--Third Card-->
+                        <div class="content">
+                            <div class="imgcontainer">
+                                <img src="/sample/imgs/pexels-yunus-tuğ-9404467.jpg" alt="3 image" class="cardimage" style="width: 90%;">
+                            </div>
+                            <h3>Blog 3</h3>
+                            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt amet similique veniam consectetur 
+                            laudantium delectus, aut fuga rem voluptatum minus ab ratione provident enim esse vero! 
+                            Voluptatum dolorem enim sequi."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page3" id="page3">
+            <!--<div class="bg-img"></div>-->
+            <div class="portfolio">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="portfolio-container">
+                <div class="front"></div>
+                <div class="info">
+                    <h2><span>Check out our Portfolio..</span></h2>
+                    <button class="howerbutton"><span>This Way</span></button>
+                </div>
+                <div class="back"></div>
+            </div>
+        </section>
+        <section class="page4" id="page4">
+            <div class="about">
+                <h2><span>
+                    Contact us...
+                </span></h2>
+            </div>
+            <div class="last-page">
+                <div class="list-container">
+                    <ul class="links">
+                        <li><img src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png"/></li>
+                        <li><img src="https://img.icons8.com/material-outlined/24/000000/facebook-new.png"/></li>
+                        <li><img src="https://img.icons8.com/material-outlined/24/000000/twitter.png"/></li>
+                    </ul>
+                </div>
+                <div class="sign">
+                    <h3><span>Sign Up</span></h3>
+                    <button class="gmail"><span>Connect using Google </span><img src="/sample/imgs/search.png" alt="goole icon"></button>
+                    <button class="facebook"><span>Connect using Facebook </span><img src="/sample/imgs/facebook-logo.png" alt="goole icon"></button>
+                    <hr>
+                    <span class="signin">Already have account? <a href="#">Sign In</a></span>
+                </div>
+                <div class="form">
+                    <h3><span>Your Thoughts</span></h3>
+                    <div class="name-section">
+                        <input type="text" name="name" autocomplete="off" required/>
+                        <label for="name" class="label-name">
+                            <span class="content-name">Name</span>
+                        </label>
+                    </div>
+                    <div class="mail-section">
+                        <input type="text" name="mail" autocomplete="off" required/>
+                        <label for="mail" class="label-mail">
+                            <span class="content-mail">E-Mail</span>
+                        </label>
+                    </div>
+                    <div class="comment-section">
+                        <label class="label-cmmt" for="comment">
+                            <span class="content-cmmt">Comment <span style="font-size: 12px;">(Max. 200 words)</span></span>
+                        </label>
+                        <textarea class="comment" rows="9" cols="40" maxlength="200"></textarea>
+                    </div>
+                    <button class="send" ><span>
+                        Send
+                    </span></button>
+                </div>
+            </div>
+            <div class="button2">
+                <button class="back-to-home" ><a href="#top" ><span>^</span></a></button>
+            </div>
+        </section>
+        <section class="footer-section">
+            <div class="footer">
+                <span >Footer</span> 
+            </div>
+        </section>  
+    </body>
+</html>
