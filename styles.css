@@ -189,30 +189,6 @@ nav{
     background-color:#007A78 ;
     color: whitesmoke;
 }
-/*#button span{
-    cursor:pointer;
-    position: relative;
-    display: inline-block;
-    transition: 0.4s;
-}
-
-#button span:after{
-    content:'\00bb';
-    position: absolute;
-    opacity: 0;
-    top:0;
-    right: -20px;
-    transition:0.4s;
-}
-.button:hover span {
-    padding-right: 25px;
-  }  
-#button:hover span:after{
-    opacity: 1;
-    right:0;
-}*/
-
-
 
 .page2{
     min-height: 110vh;
@@ -226,32 +202,6 @@ nav{
     font-size: 24px;
     padding: 25px 0px 35px 0px;
 }
-
-/*.slideshow{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.slideshow-buttons{
-    display: flex;
-    width: 100px;
-    align-items: center;
-}
-
-#next, #prev{
-    text-align: center;
-    color:#007A78;
-    font-size: 14px;
-    margin: auto;
-    padding: 0;
-    background-color: transparent;
-    border: 3px solid #007A78;
-    height: 50px;
-    width: 170px;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
-    border-radius: 50%;
-    cursor: pointer;
-}*/
 
 .row{
     margin: 8px - 12px;
@@ -324,15 +274,6 @@ nav{
     font-size: 24px;
     padding: 25px 0px 25px 0px;
 }
-/*.bg-img{
-    background-image: url(/sample/imgs/pexels-alexander-tiupa-192136.jpg);
-    height: 100%;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-}*/
 
 .portfolio-container{
     width: 100%;
