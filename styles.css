@@ -266,7 +266,9 @@ nav{
 .page3{
     min-height: 100vh;
 }
-
+.bg-color{
+    background-color: whitesmoke;
+}
 .portfolio{
     letter-spacing: 1px;
     text-align: center;
